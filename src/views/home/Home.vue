@@ -1,6 +1,6 @@
 <template>
   <div id="home">
-    <nav-bar></nav-bar>
+    <nav-bar class="home-nav"><div slot="center">购物街</div></nav-bar>
   </div>
 </template>
 
@@ -15,4 +15,8 @@ import NavBar from '../../components/common/navbar/NavBar.vue'
 </script>
 
 <style scoped>
+.home-nav {
+  background-color: var(--color-tint);
+  color: aliceblue;
+}
 </style>
